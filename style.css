@@ -1,3 +1,7 @@
+:root {
+    --main-aqua-blue: rgb(53, 243, 180);
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -9,7 +13,7 @@ body {
     align-items: center;
     padding: 20px;
     height: 60px;
-    background-color: rgb(53, 243, 180);
+    background-color: var(--main-aqua-blue);
 }
 
 .content {
@@ -34,7 +38,7 @@ body {
     visibility: hidden;
     padding: 10px 20px;
     margin: 5px;
-    background-color: rgb(53, 243, 180);
+    background-color: var(--main-aqua-blue);
     border-radius: 10px;
 }
 
@@ -65,7 +69,7 @@ body {
 .right-arrow {
     height: 50px;
     width: 50px;
-    color: rgb(73, 248, 190);
+    color: var(--main-aqua-blue);
 }
 
 .carousel-container img {
@@ -81,7 +85,16 @@ body {
 }
 
 .dot {
-    font-size: 3rem;
     color: grey;
     margin: 0px 10px 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.dot svg {
+    color: var(--main-aqua-blue);
+    height: 30px;
+    width: 30px;
 }
