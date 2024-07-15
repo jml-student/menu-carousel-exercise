@@ -53,3 +53,35 @@ body {
 .menu-item:hover {
     text-decoration: underline;
 }
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.left-arrow,
+.right-arrow {
+    height: 50px;
+    width: 50px;
+    color: rgb(73, 248, 190);
+}
+
+.carousel-container img {
+    display: none;
+    height: 200px;
+    width: 200px;
+    padding: 0px 40px 0px 40px;
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+}
+
+.dot {
+    font-size: 3rem;
+    color: grey;
+    margin: 0px 10px 0px 10px;
+}
