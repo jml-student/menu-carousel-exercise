@@ -16,6 +16,6 @@
     "prettier": "^3.3.2"
   },
   "dependencies": {
-    "display-menu-package": "^1.0.0"
+    "display-menu-package": "^1.0.1"
   }
 }
