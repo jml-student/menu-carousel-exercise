@@ -1,4 +1,5 @@
-import { displayMenu } from './node_modules/display-menu-package/index.js';
+import { displayMenu } from 'display-menu-package';
+import './style.css';
 
 (function main() {
     const leftArrow = document.querySelector('.left-arrow');

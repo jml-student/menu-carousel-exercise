@@ -2,18 +2,24 @@
   "name": "menu-carousel-exercise",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@eslint/js": "^9.6.0",
+    "css-loader": "^7.1.2",
     "eslint": "^9.6.0",
     "globals": "^15.8.0",
-    "prettier": "^3.3.2"
+    "html-webpack-plugin": "^5.6.0",
+    "prettier": "^3.3.2",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.93.0",
+    "webpack-cli": "^5.1.4"
   },
   "dependencies": {
     "display-menu-package": "^1.0.1"
